@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap");
+
+body {
+  background-color: thistle;
+  text-align: center;
+  line-height: 2.5; /*this is the line height separtion. This is key to allow easy reading.*/
+}
+
+h1 {
+  font-size: 67px;
+  font-family: "Oswald", sans-serif;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+
+blockquote {
+  font-style: italic;
+}
+cite {
+  font-size: 20px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*this is the border that surrounds the text and image. keep this in mind to add asthetic appeal to teh page.*/
+
+#main {
+  margin: 65px 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
